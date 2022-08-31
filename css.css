@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+* li {
+    list-style-type: none;
+}
+.header {
+    background: #ffba00;
+    width: 100%;
+    height:100px;
+}
+.menu {
+    width: 936px;
+    height: 52px;
+    margin: auto;
+    overflow: hidden;/*co vào là mất nội dung*/
+}
+.menu > ul > li {
+    float: left;
+    list-style-type: none;/*xóa dấu ở đầu danh sách*/
+    margin-top: 18px;
+    padding-left: 63px;
+}
+.menu > ul > li > a {
+    text-decoration: none;/*xóa gạch chân ở đầu thẻ a*/
+    margin: auto;
+    display: block;/*tra goole*/
+}
+.menu ul   li a:hover {
+    opacity: 0.5;
+}
+.donw {
+    width: 936px;
+    height: 48px;
+    margin:auto;
+    overflow: hidden;
+}
+.timkiem {
+    width: 610px;
+    height: 36px;
+    background-color: white;
+    border-radius: 5px;
+    float: left;
+}
+.righttimkiem {
+    vertical-align: middle;
+    padding-top: 10px;
+
+    
+}
+.righttimkiem ul li a{
+    text-decoration: none;
+    margin: auto;
+}
+.righttimkiem ul li a img {
+    vertical-align: middle;
+}
+.righttimkiem ul li{
+    list-style-type: none;
+    float: left;
+    padding-left: 70px;
+}
+.timkiem input{
+    width: 570px;
+    height: 35px;
+    border-style: none;
+    border-radius: 4px;
+    line-height: 36px;
+}
+.timkiem button {
+    height: 36px;
+    width: 36px;
+    border-radius: 4px;
+    border-style: none;
+}
+#xuong {
+    background: white;
+    color: black;
+    display: none;
+}
+#xuong li {
+    list-style: none;
+}
+#xuong li a {
+    text-decoration: none;
+}
+.menu ul li:hover #xuong {
+    display: block;
+}
+.content {
+    width: 933px;
+    height: 319px;
+    margin:0 auto;
+    padding: 12px;
+    background: snow;
+    overflow: hidden;
+
+}
+.content-top {
+    width: 100%;
+    height: 75%;
+}
+.content-bottom {
+    width: 100%;
+    height: 25%;
+    background: #ffba00;
+}
+.content-top a img {
+    border-radius: 7px;
+}
+.content-bottom table tr td {
+    text-align: center;
+    width: 0.08%;
+}
+.content-bottom table tr td:hover {
+    opacity: 0.5;
+}
+.content-bottom tr td {
+    float: top;
+    padding-top: -65px;
+}
+#logo img {
+    margin-left: -60px;
+    margin-top: -10px;
+}
+#vongquay i {
+    margin-top: 12px;
+}
+.dem {
+    width: 100%;
+    height: 12px;
+    background: white;
+}
+#khampha {
+    width: 957px;
+    height: 328px;
+    margin: 0 auto;
+    background: snow;
+}
+.khampha-top{
+    height: 24px;
+    width: 100%;
+}
+.khampha-top strong {
+    padding-left: 12px;
+    padding-top: 12px;
+    font-size: 20px;
+}
+.khampha-buttom{
+    height: 304px;
+    width: 97%;
+    background: none;
+    padding-left: 1.5%;
+}
+.danhmuctop {
+    height: 50%;
+}
+.danhmucbuttom {
+    height: 50%;
+}
+.danhmuctop table tr td img {
+    height: 84px;
+    width: 84px;
+    border-radius: 10px;
+}
+.danhmucbuttom table tr td img {
+    height: 84px;
+    width: 84px;
+    border-radius: 10px;
+}
+.danhmuctop table tr td p {
+    display: inline-block;
+    height: 84px;
+    width: 84px;
+}
+.danhmucbuttom table tr td p {
+    display: inline-block;
+    height: 84px;
+    width: 84px;
+}
+.danhmuctop table tr td{
+    display: inline-block;
+    height: 127px;
+    text-align: center;
+    width: 14.2%;
+    padding-top: 6px;
+}
+.danhmucbuttom table tr td{
+    display: inline-block;
+    height: 127px;
+    text-align: center;
+    width: 14.2%;
+    padding-top: 6px;
+}
+.dangtinmoi {
+    height: 1228px;
+    width: 957px;
+    background: snow;
+    margin: 0 auto;
+}
+.tin p {
+    font-size: 20px;
+    padding: 12px;
+}
+.tin1 table tr td img {
+    display: inline-block;
+    height: 166px;
+    width: 166px;
+}
+.tin1 table tr td {
+    display: inline-block;
+    height: 290px;
+    width: 190px;
+    background: none;
+}
+.tin1 table tr td p {
+    display: inline-block;
+    width: 150px;
+}
+.tin1 table tr td:hover {
+    background: azure;
+}
+#chamtin li {
+    display: inline-block;
+    list-style: none;
+    height: 40px;
+    width: 188px;
+    background: snow;
+    line-height: 40px;
+
+}
+#chamtin li a {
+    text-decoration: none;
+}
+#chamtin li a:hover {
+    color: white;
+    background: orange;
+    display: inline-block;
+    height: 40px;
+    width: 188px;
+}
+#chamtin {
+    height: 120px;
+    width: 188px;
+    display: none;
+
+}
+.x ul li:hover #chamtin  {
+    display: block;
+}
+.x > ul > li >i {
+    display: inline-block;
+    height: 16px;
+    width: 14px;
+
+}
+.tin1 table tr td p {
+    float: left;
+}
+.tin1 table tr td .x {
+    margin-right: 0px;
+}
